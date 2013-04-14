@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		644E3742171B5EAF004048CA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 644E3741171B5EAF004048CA /* README.md */; };
+		644E3744171B5F2E004048CA /* auth.php in Resources */ = {isa = PBXBuildFile; fileRef = 644E3743171B5F2E004048CA /* auth.php */; };
 		64F7E258171B328F00080A46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F7E257171B328F00080A46 /* UIKit.framework */; };
 		64F7E25A171B328F00080A46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F7E259171B328F00080A46 /* Foundation.framework */; };
 		64F7E25C171B328F00080A46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F7E25B171B328F00080A46 /* CoreGraphics.framework */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		644E3741171B5EAF004048CA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		644E3743171B5F2E004048CA /* auth.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = auth.php; sourceTree = "<group>"; };
 		64F7E254171B328F00080A46 /* Women Who Code Twilio iPhone App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Women Who Code Twilio iPhone App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F7E257171B328F00080A46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		64F7E259171B328F00080A46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +41,7 @@
 		64F7E270171B329000080A46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		64F7E272171B329000080A46 /* WWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWViewController.h; sourceTree = "<group>"; };
 		64F7E273171B329000080A46 /* WWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWViewController.m; sourceTree = "<group>"; };
+		64F7E27A171B330E00080A46 /* ConsumerCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsumerCredentials.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +58,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		644E3745171B5F33004048CA /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				644E3743171B5F2E004048CA /* auth.php */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
 		64F7E24B171B328F00080A46 = {
 			isa = PBXGroup;
 			children = (
+				644E3741171B5EAF004048CA /* README.md */,
+				64F7E27A171B330E00080A46 /* ConsumerCredentials.h */,
 				64F7E25D171B328F00080A46 /* Women Who Code Twilio iPhone App */,
 				64F7E256171B328F00080A46 /* Frameworks */,
 				64F7E255171B328F00080A46 /* Products */,
@@ -88,6 +103,7 @@
 				64F7E26F171B329000080A46 /* MainStoryboard.storyboard */,
 				64F7E272171B329000080A46 /* WWViewController.h */,
 				64F7E273171B329000080A46 /* WWViewController.m */,
+				644E3745171B5F33004048CA /* Server */,
 				64F7E25E171B328F00080A46 /* Supporting Files */,
 			);
 			path = "Women Who Code Twilio iPhone App";
@@ -164,6 +180,8 @@
 				64F7E26C171B328F00080A46 /* Default@2x.png in Resources */,
 				64F7E26E171B328F00080A46 /* Default-568h@2x.png in Resources */,
 				64F7E271171B329000080A46 /* MainStoryboard.storyboard in Resources */,
+				644E3742171B5EAF004048CA /* README.md in Resources */,
+				644E3744171B5F2E004048CA /* auth.php in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +317,7 @@
 				64F7E279171B329000080A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
